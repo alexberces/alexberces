@@ -1,0 +1,382 @@
+* {
+    margin: 0px;
+}
+
+#contents {
+    display: inline-block;
+}
+
+#name {
+    font-family: Roboto Mono;
+    color: black;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+#name {
+    font-size: 14px;
+    align-content: left;
+}
+
+.nav {
+    padding-top: 20px;
+    width: 100%;
+    min-width: 50%;
+    position: relative;
+    align-content: center;
+    text-align: center;
+}
+
+.nav p {
+    padding: 15px;
+    position: relative;
+    display: inline;
+    text-align: center;
+    color: black;
+    font-family: Roboto Mono;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 20px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    transition: all 0.6s ease 0s;
+}
+
+
+.nav a:hover { 
+    color: white;
+    background-color: black;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.contact {
+    padding-top: 10px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    font-family: Roboto Mono;
+}
+
+#contacttitle {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Roboto Mono;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+.contact div p {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+    font-family: Roboto Mono;
+    font-size: 12px;
+}
+
+/*.about {
+    text-align: justify;
+    align-content: center;
+    position: relative;
+}
+
+#about {
+    width: 100%;
+    font-family: Roboto Mono;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    letter-spacing: 1px;
+}
+
+#aboutme {
+    max-width: 50%;
+    min-width: 50%;
+    background-color: #FFDE0A;
+    position: relative;
+    align-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    color: black;
+    font-family: Roboto Mono;
+    font-size: 12px;
+    font-weight: 400;
+}*/
+
+.social {
+    position: static;
+    width: 100%;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.social img {
+    margin: 5px;
+    width: 30px;
+}
+
+.social a {
+    text-align: center;
+    border: 0px;
+    position: relative;
+}
+
+.pp {
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    display: inline-block;
+}
+
+#pptitle {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    font-family: Roboto Mono;
+    font-weight: 500;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+.pp div p{
+    width: 30%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    font-family: Roboto Mono;
+    font-size: 12px;
+    align-content: center;
+}
+
+/*.pp img {
+    min-height: 180px;
+    max-height: 180px;
+    margin: 0px;
+}
+
+.pp div p {
+    position: relative;
+    top: -180px;
+    height: 105px;
+    padding-top: 75px;
+    font-family: Roboto Mono;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: transparent;
+}
+
+.pp div p:hover {
+    transition: all 0.6s ease 0s;
+    background-color: black; opacity: 0.9;
+    color: white;
+}*/
+
+.education {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+#edutitle {
+    padding-top: 30px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Roboto Mono;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+.education div {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    font-family: Roboto Mono;
+    font-size: 12px;
+}
+
+.skills {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    font-family: Roboto Mono;
+}
+
+#skillstitle {
+    padding-top: 30px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Roboto Mono;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+.skills div p {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    font-family: Roboto Mono;
+    font-size: 12px;
+}
+
+.work {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    font-family: Roboto Mono;
+}
+
+#worktitle {
+    padding-top: 30px;
+    width: 100%;
+    font-family: Roboto Mono;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+.work div p {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    font-family: Roboto Mono;
+    font-size: 12px;
+}
+
+.awards {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    font-family: Roboto Mono;
+}
+
+#awardstitle {
+    padding-top: 30px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Roboto Mono;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+.awards div p {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    font-family: Roboto Mono;
+    font-size: 12px;
+}
+
+.addinfo {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    font-family: Roboto Mono;
+    padding-bottom: 15px;
+}
+
+#addinfotitle {
+    padding-top: 30px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Roboto Mono;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+.addinfo div p {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-family: Roboto Mono;
+    font-size: 12px;
+}
+
+#footer {
+    
+    position: static;
+    width: 100%;
+    background-color: black;
+
+}
+
+#footer p {
+    font-family: Roboto Mono;
+    font-size: 12px;
+    position: relative;
+    padding: 15px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
